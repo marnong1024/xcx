@@ -1,0 +1,229 @@
+.head_bc {
+    background-color: #eaf3f6;
+    padding: 7px 8px 8px;
+  }
+  .head_bc{
+    position: relative;
+  }
+  .detail_box {
+    display: flex;
+    background-color: #ffffff;
+    padding: 24px 35px 24px 12px;
+    box-sizing: border-box;
+    height: 147px;
+    -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.16);
+  }
+  .banner_tips{
+    position: absolute;
+    top: 37px;
+    left: 0;
+    width: 115px;
+    height: 25px;
+    transform:translate(-22px,-22px) rotate(-40deg);
+    -webkit-transform:translate(-22px,-22px) rotate(-40deg);
+    color: #ffffff;
+    background-color: #549af9;
+    text-align: center;
+  }
+  .detail_pic {
+    width: 90px;
+    box-sizing: border-box;
+    padding-right: 4px;
+  }
+  .detail_pic ._pic {
+    width: 100%;
+    height: 100%;
+  }
+  .detail_info {
+    flex: 1;
+    height: auto;
+  }
+  .commodity_desc .commodity_num {
+    margin-top: 2px;
+  }
+  .commodity_title .cell {
+    margin-bottom: 2px;
+  }
+  .details {
+    padding: 17px 0 9px;
+  }
+  .list {
+    border-bottom: 2px solid #f0f0f0;
+  }
+  .list .commodity_desc {
+    margin-top: 18px;
+    padding-bottom: 9px;
+    position: relative;
+  }
+  .pt_list .c_text {
+    margin-top: 4px;
+    padding-bottom: 9px;
+    position: relative;
+  }
+  .list .c_text ,.pt_list .c_text{
+    width: 300px;
+    color: #3b3b3b;
+    letter-spacing:1px;
+  }
+  .commodity_desc .numb {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  .xcx_fixed button {
+    width: 100%;
+  }
+  .xcx_from_cell {
+    display: flex;
+    padding: 10px 10px 0;
+    height: 38px;
+  }
+  .inp_box {
+    flex: 48;
+    height: 100%;
+    margin-right: 10px;
+    border-bottom: 2px solid #f0f0f0;
+  }
+  .inp_ {
+    padding: 0 35px;
+  }
+  .inp_,
+  .xcx_btn {
+    height: 100%;
+  }
+  .xcx_btn_box {
+    flex: 15;
+    height: 100%;
+  }
+  .c_yl{
+    color: #f6a100;
+  }
+  .m_r_20{
+    margin-right: 10px;
+  }
+  .pt_arr{
+    position: relative;
+  }
+  .pt_arr_list{
+    display: inline-block;
+    width: 64px;
+    margin: 0 ; 
+  }
+  .pt_arr_item{
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image:url("../img/xcx_user.png");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center 4px
+  }
+  .pt_arr_list .pt_list_pic{
+   width: 100%;
+   height: 100%;
+   border: none;
+  }
+  .pt_list_name{
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .pt_arr_abs{
+    position: absolute;
+    left: 15px;
+    top: 32px;
+    width: 36px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 9px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #cc4444;
+  }
+  .tips{
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom:10px; 
+    border-bottom: 1px solid #cccccc
+  }
+  .pt_title{
+    color: #666666;
+  }
+  .tip_cell{
+    padding: 10px 0;
+    color: #999999;
+  }
+  .pt_num{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    text-align:center;
+    line-height:14px;
+    margin-right:2px;
+    border-radius:50%;
+    font-size: 12px;
+    background-color: #999999;
+    border-radius:50%;
+    color: #ffffff;
+  }
+  .pic_box{
+    width: 100%
+  }
+  .pic_item{
+    display:block;
+    width: 100%;
+    border: none
+  }
+  .user_state{
+    display: flex;
+    width: 100%;
+  }
+  .user_close,.user_qr{
+    flex: 1;
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    padding:0 5px;
+    
+  }
+  .user_close button{
+    background-color: #cccccc;
+   color: #fff;
+  }
+  .user_qr button{
+   background-color: #549af9;
+   color: #fff;
+  }
+  .back{
+    position: fixed;
+    display: block;
+    width: 45px;
+    right: 15px;
+    bottom: 150px
+  }
+  .back ._image{
+    display: block;
+    width: 100%;
+    height: 45px;
+  }
+  .back ._p{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    padding:0 6px;
+    letter-spacing: 2px;
+    text-align:center;
+    line-height: 13px;
+  }
+  
